@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 70%;
+  list-style: none;
+  gap: 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
