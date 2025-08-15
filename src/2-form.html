@@ -13,8 +13,21 @@
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">Form</h1>
       </div>
-
-      <script type="module" src="./js.js/2-form.js"></script>
+      <div class="container-form">
+        <form class="feedback-form">
+          <label>
+            Email
+            <input type="email" name="userEmail" autofocus />
+          </label>
+          <label>
+            Message
+            <textarea name="message" id="usermessage" rows="6"></textarea>
+          </label>
+          <button class="send" type="submit">Submit</button>
+        </form>
+      </div>
     </main>
+
+    <script type="module" src="./js.js/2-form.js" defer></script>
   </body>
 </html>
